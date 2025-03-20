@@ -18,6 +18,21 @@ const nextConfig = {
     parallelServerBuildTraces: true,
     parallelServerCompiles: true,
   },
+  // images: {
+  //   domains: ['hebbkx1anhila5yf.public.blob.vercel-storage.com', 'i.postimg.cc'], 
+  // },
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "hebbkx1anhila5yf.public.blob.vercel-storage.com", // Vercel Blob Storage
+      },
+      {
+        protocol: "https",
+        hostname: "i.postimg.cc", // PostImage hosting
+      },
+    ],
+  },
 }
 
 mergeConfig(nextConfig, userConfig)
