@@ -35,6 +35,9 @@ export default function Navbar() {
           <Link href="#meet-the-team" className="text-sm font-medium transition-colors hover:text-primary">
             Meet the Team
           </Link>
+          <Link href="#sponsors" className="text-sm font-medium transition-colors hover:text-primary">
+            Sponsors
+          </Link>
         </nav>
         <div className="hidden md:flex gap-4">
           <Button asChild variant="outline">
@@ -78,6 +81,13 @@ export default function Navbar() {
               onClick={() => setIsMenuOpen(false)}
             >
               Meet the Team
+            </Link>
+            <Link
+              href="#sponsors"
+              className="text-sm font-medium transition-colors hover:text-primary"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Sponsors
             </Link>
           </nav>
           <div className="flex flex-col gap-2 mt-4">

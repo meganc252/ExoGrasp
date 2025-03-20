@@ -5,6 +5,7 @@ import BenefitsSection from "@/components/benefits-section"
 import ContactSection from "@/components/contact-section"
 import Footer from "@/components/footer"
 import Navbar from "@/components/navbar"
+import SponsorsSection from "@/components/sponsors-section"
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <TechnologySection />
         <BenefitsSection />
         <ContactSection />
+        <SponsorsSection />
       </main>
       <Footer />
     </div>

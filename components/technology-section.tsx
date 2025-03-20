@@ -17,9 +17,9 @@ export default function TechnologySection() {
             </p>
           </div>
         </div>
-        <div className="grid gap-6 lg:grid-cols-[1fr_600px] lg:gap-12 xl:grid-cols-[1fr_650px] mt-12">
+        <div className="grid gap-6 md:grid-cols-1 lg:grid-cols-[1fr_600px] lg:gap-12 xl:grid-cols-[1fr_650px] mt-12">
           <div className="flex items-center justify-center">
-            <div className="relative h-[600px] w-[600px] md:h-[700px] md:w-[700px]">
+            <div className="relative w-full max-w-[400px] h-[400px] md:max-w-[600px] md:h-[600px] lg:max-w-[700px] lg:h-[700px]">
               <Image
                 src="https://i.postimg.cc/kGrSg93z/Hand-Half-Closed.png"
                 alt="ExoGrasp Technology Visualization"
