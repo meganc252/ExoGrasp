@@ -5,7 +5,7 @@ import { ArrowRight } from "lucide-react"
 
 export default function HeroSection() {
   return (
-    <section className="w-full py-12 md:py-24 lg:py-32 xl:py-48 bg-gradient-to-b from-background to-muted">
+    <section className="w-full py-6 md:py-12 lg:py-16 xl:py-20 bg-gradient-to-b from-background to-muted">
       <div className="container px-4 md:px-6">
         <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
           <div className="flex flex-col justify-center space-y-4">
@@ -33,7 +33,8 @@ export default function HeroSection() {
           <div className="flex items-center justify-center">
             <div className="relative h-[300px] w-[300px] md:h-[400px] md:w-[400px] lg:h-[500px] lg:w-[500px]">
               <Image
-                src="/placeholder.svg?height=600&width=600"
+                src="https://i.postimg.cc/rsbCrpZ9/Adobe-Express-file.png"
+                //src="https://i.postimg.cc/hvLbThKV/full-product.png"
                 alt="ExoGrasp Robotic Glove"
                 fill
                 className="object-contain"

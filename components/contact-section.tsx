@@ -6,33 +6,33 @@ import Image from "next/image"
 const teamMembers = [
   {
     name: "Nathan Bellsmith",
-    role: "Robotics & Control Systems",
-    description: "Nathan specializes in control systems and embedded programming, developing intelligent algorithms for robotics applications.",
-    image: "/images/alex.jpg", // Replace with actual image path
+    role: "Electrical Design",
+    description: "Nathan specializes in electronics and circuit design, developing high-performance and low-power electronic systems.",
+    image: "https://i.postimg.cc/kgp5xb78/nathan.jpg", // Replace with actual image path
   },
   {
     name: "Megan Chang",
-    role: "Mechanical Design & Simulation",
-    description: "Megan focuses on mechanical design and FEA simulations, ensuring robust and lightweight structures.",
-    image: "/images/sophia.jpg", // Replace with actual image path
+    role: "System Integration & Machine Learning",
+    description: "Megan works on integrating mechanical, electrical, and software components, as well as developing AI-driven solutions for future project development.",
+    image: "https://i.postimg.cc/jdkT9YBY/megan.jpg", // Replace with actual image path
   },
   {
     name: "Devshi Perera",
-    role: "Electronics & PCB Design",
-    description: "Devshi is an expert in circuit design and PCB layout, working on high-performance and low-power electronic systems.",
-    image: "/images/daniel.jpg", // Replace with actual image path
+    role: "Mechanical Design",
+    description: "Devshi focuses on mechanical design, ensuring a robust wearable device with lightweight pneumatic actuators optimized for user interaction.",
+    image: "https://i.postimg.cc/XJ36FjBd/devshi.jpg", // Replace with actual image path
   },
   {
     name: "Relja Vojvodic",
-    role: "Software & AI Integration",
-    description: "Relja develops AI-driven solutions and software interfaces, enhancing automation and user interaction.",
-    image: "/images/emily.jpg", // Replace with actual image path
+    role: "Software & Control Systems",
+    description: "Relja specializes in control systems and embedded programming, developing intelligent algorithms for robotics applications.",
+    image: "https://i.postimg.cc/XvfTnR1J/relja.jpg", // Replace with actual image path
   },
   {
     name: "Seyon Yogendran",
-    role: "System Integration & Testing",
-    description: "Seyon works on integrating mechanical, electrical, and software components, ensuring seamless operation and testing.",
-    image: "/images/michael.jpg", // Replace with actual image path
+    role: "Software & Control Systems",
+    description: "Seyon specializes in control systems and embedded programming, developing intelligent algorithms for robotics applications.",
+    image: "https://i.postimg.cc/ZqHV74Dr/seyon.jpg", // Replace with actual image path
   },
 ]
 

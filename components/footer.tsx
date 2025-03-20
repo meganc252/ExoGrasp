@@ -8,7 +8,8 @@ export default function Footer() {
         <div className="flex flex-col items-center gap-4 md:flex-row md:gap-6">
           <Link href="/" className="flex items-center gap-2">
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1-ECLVVN73F8vBy1y6UY2niZvcrAbOoV.png"
+              //src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1-ECLVVN73F8vBy1y6UY2niZvcrAbOoV.png"
+              src="https://i.postimg.cc/1Xt4ZcHW/1.png"
               alt="ExoGrasp Logo"
               width={140}
               height={40}

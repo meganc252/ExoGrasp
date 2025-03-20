@@ -4,7 +4,7 @@ import { Brain, HandMetal } from "lucide-react"
 
 export default function TechnologySection() {
   return (
-    <section id="technology" className="w-full py-12 md:py-24 lg:py-32">
+    <section id="technology" className="w-full py-6 md:py-12 lg:py-16">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
@@ -17,11 +17,11 @@ export default function TechnologySection() {
             </p>
           </div>
         </div>
-        <div className="grid gap-6 lg:grid-cols-[1fr_500px] lg:gap-12 xl:grid-cols-[1fr_550px] mt-12">
+        <div className="grid gap-6 lg:grid-cols-[1fr_600px] lg:gap-12 xl:grid-cols-[1fr_650px] mt-12">
           <div className="flex items-center justify-center">
-            <div className="relative h-[300px] w-[300px] md:h-[400px] md:w-[400px]">
+            <div className="relative h-[600px] w-[600px] md:h-[700px] md:w-[700px]">
               <Image
-                src="/placeholder.svg?height=500&width=500"
+                src="https://i.postimg.cc/kGrSg93z/Hand-Half-Closed.png"
                 alt="ExoGrasp Technology Visualization"
                 fill
                 className="object-contain"
@@ -73,4 +73,3 @@ export default function TechnologySection() {
     </section>
   )
 }
-

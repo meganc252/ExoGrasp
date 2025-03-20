@@ -14,10 +14,11 @@ export default function Navbar() {
       <div className="container flex h-16 items-center justify-between">
         <Link href="/" className="flex items-center gap-2">
           <Image
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1-ECLVVN73F8vBy1y6UY2niZvcrAbOoV.png"
+            //src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1-ECLVVN73F8vBy1y6UY2niZvcrAbOoV.png"
+            src="https://i.postimg.cc/GpBS2HLq/logo.png"
             alt="ExoGrasp Logo"
-            width={180}
-            height={50}
+            width={100}
+            height={100}
             className="h-auto w-auto"
           />
         </Link>
@@ -31,8 +32,8 @@ export default function Navbar() {
           <Link href="#benefits" className="text-sm font-medium transition-colors hover:text-primary">
             Benefits
           </Link>
-          <Link href="#contact" className="text-sm font-medium transition-colors hover:text-primary">
-            Contact
+          <Link href="#meet-the-team" className="text-sm font-medium transition-colors hover:text-primary">
+            Meet the Team
           </Link>
         </nav>
         <div className="hidden md:flex gap-4">
@@ -76,7 +77,7 @@ export default function Navbar() {
               className="text-sm font-medium transition-colors hover:text-primary"
               onClick={() => setIsMenuOpen(false)}
             >
-              Contact
+              Meet the Team
             </Link>
           </nav>
           <div className="flex flex-col gap-2 mt-4">
